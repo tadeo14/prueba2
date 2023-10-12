@@ -21,24 +21,24 @@ var diaDeLaSemana = fecha.getDay();
 
 switch (diaDeLaSemana) {
     case 0:
-        console.log("Domingo");
+        document.write("Domingo");
         break;
     case 1:
-        console.log("Lunes");
+        document.write("Lunes");
         break;
     case 2:
-        console.log("Martes");
+        document.write("Martes");
         break;
     case 3:
-        console.log("Miércoles");
+        document.write("Miércoles");
         break;
     case 4:
-        console.log("Jueves");
+        document.write("Jueves");
         break;
     case 5:
-        console.log("Viernes");
+        document.write("Viernes");
         break;
     case 6:
-        console.log("Sábado");
+        document.write("Sábado");
         break;
 }
