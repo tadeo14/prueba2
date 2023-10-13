@@ -42,3 +42,22 @@ switch (diaDeLaSemana) {
         document.write("Sábado");
         break;
 }
+/*Por supuesto, la primera línea del ejemplo, `var fecha = new Date();`, se utiliza para crear una 
+instancia de la clase `Date` en JavaScript. Esta instancia representa la fecha y la hora actual 
+en el momento en que se ejecuta el código.
+
+Aquí tienes una explicación más detallada de esta línea de código:
+
+1. `new Date()`: Esto crea un nuevo objeto `Date` que representa la fecha y 
+la hora actual del sistema en el que se está ejecutando el código. En otras palabras, 
+`new Date()` te proporciona una instancia de la clase `Date` que contiene la fecha y 
+hora actuales en el momento de su creación.
+
+2. `var fecha = ...`: Esto declara una variable llamada `fecha` y le asigna la instancia de 
+`Date` recién creada. Como resultado, puedes usar la variable `fecha` para acceder a la fecha 
+y la hora actuales, así como a varios métodos relacionados con fechas y horas.
+
+En resumen, la primera línea se utiliza para obtener la fecha y la hora actuales y almacenarlas
+en una variable llamada `fecha`. Esto es útil en el contexto de tu ejemplo para luego utilizar 
+`fecha.getDay()` y obtener el día de la semana correspondiente a esa fecha actual.
+*/
