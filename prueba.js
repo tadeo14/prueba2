@@ -62,4 +62,10 @@ en una variable llamada `fecha`. Esto es útil en el contexto de tu ejemplo para
 `fecha.getDay()` y obtener el día de la semana correspondiente a esa fecha actual.
 
 */
-var arrays = [5, 14, 19, 21]
+var arrays = [5, 14, 19, 21];
+var agregar = prompt ("agrega un numero: ")
+arrays.push(agregar);
+
+
+document.write (arrays);
+
