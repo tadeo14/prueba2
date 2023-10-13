@@ -15,7 +15,7 @@ al usuario con un mensaje diferente según el día
 de la semana.
 Trabajaremos con getDay() y switch
 
-*/
+
 var fecha = new Date(); // Crea una instancia de Date que representa la fecha y la hora actual
 var diaDeLaSemana = fecha.getDay();
 
@@ -42,7 +42,7 @@ switch (diaDeLaSemana) {
         document.write("Sábado");
         break;
 }
-/*Por supuesto, la primera línea del ejemplo, `var fecha = new Date();`, se utiliza para crear una 
+Por supuesto, la primera línea del ejemplo, `var fecha = new Date();`, se utiliza para crear una 
 instancia de la clase `Date` en JavaScript. Esta instancia representa la fecha y la hora actual 
 en el momento en que se ejecuta el código.
 
@@ -60,4 +60,6 @@ y la hora actuales, así como a varios métodos relacionados con fechas y horas.
 En resumen, la primera línea se utiliza para obtener la fecha y la hora actuales y almacenarlas
 en una variable llamada `fecha`. Esto es útil en el contexto de tu ejemplo para luego utilizar 
 `fecha.getDay()` y obtener el día de la semana correspondiente a esa fecha actual.
+
 */
+var arrays = [5, 14, 19, 21]
