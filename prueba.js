@@ -70,17 +70,59 @@ arrays.push(agregar);
 document.write (arrays);
 
 */
-var rol = prompt ("Cual es su rol? ")
 
-if (rol == "admin" || rol == "recursos") {
-    // Comprobar si el usuario hizo clic en "Aceptar" en lugar de "Cancelar" o cerró la ventana
-        alert("Hola, ");
-    } else {
- // El usuario hizo clic en "Cancelar" o cerró la ventana
-        alert("No proporcionaste tu nombre.");
+
+while (true) { 
+    var rol = prompt ("Cual es su rol? ")
+    if (rol == null) {
+        alert ("No ha ingresado ningun dato")
+        break; //saldra del bucle si presiona cancelar 
     }
-
-
+    if (rol == "admin" || rol == "recursos") {
+        // Comprobar si el usuario hizo clic en "Aceptar" en lugar de "Cancelar" o cerró la ventana
+            var clave = prompt ("Coloca tu clave: ");
+            if (clave == "1234") {
+                alert ("Acceso permitido.");
+                break;
+                } else if (clave == null) { 
+                    alert ("No proporcionaste ninguna clave.");
+                    break; 
+                } else {
+                    alert ("contraseña incorrecta, intenta nuevamente")
+                }
+            } else {
+     // El usuario hizo clic en "Cancelar" o cerró la ventana
+            alert("No proporcionaste tu nombre.");
     
-   
+        }
+
+}
+/*
+  
+    var rol;
+var clave;
+
+while (true) {
+    rol = prompt("¿Cuál es su rol?");
     
+    if (rol === null) {
+        alert("No proporcionaste un rol.");
+        break;  // Sale del bucle si se presiona "Cancelar" en la primera pregunta
+    }
+    
+    if (rol === "admin" || rol === "recursos") {
+        clave = prompt("Coloca tu clave: ");
+        
+        if (clave === null) {
+            alert("No proporcionaste una clave.");
+        } else if (clave === "1234") {
+            alert("Acceso permitido.");
+            break;  // Sale del bucle si se proporciona una clave correcta
+        } else {
+            alert("Contraseña incorrecta. Inténtalo de nuevo.");
+        }
+    } else {
+        alert("No proporcionaste un rol válido. Por favor, inténtalo de nuevo.");
+    }
+}
+*/
