@@ -70,3 +70,17 @@ arrays.push(agregar);
 document.write (arrays);
 
 */
+var rol = prompt ("Cual es su rol? ")
+
+if (rol == "admin" || rol == "recursos") {
+    // Comprobar si el usuario hizo clic en "Aceptar" en lugar de "Cancelar" o cerró la ventana
+        alert("Hola, ");
+    } else {
+ // El usuario hizo clic en "Cancelar" o cerró la ventana
+        alert("No proporcionaste tu nombre.");
+    }
+
+
+    
+   
+    
