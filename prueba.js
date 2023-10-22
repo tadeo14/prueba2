@@ -69,7 +69,6 @@ arrays.push(agregar);
 
 document.write (arrays);
 
-*/
 
 
 while (true) { 
@@ -103,7 +102,6 @@ while (true) {
     
 }
 
-/*
   "mi-parrafo"
     var rol;
 var clave;
