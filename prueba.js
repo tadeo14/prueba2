@@ -83,10 +83,15 @@ while (true) {
             var clave = prompt ("Coloca tu clave: ");
             if (clave == "1234") {
                 alert ("Acceso permitido.");
+                var usuario = prompt ("Diga su nombre de usuario: ")
+
+                let miParrafo = document.getElementById("mi-parrafo");
+                miParrafo.innerHTML = ("hola  " + usuario + ", bienvenid@ a nuestra aplicacion");
                 break;
+
                 } else if (clave == null) { 
                     alert ("No proporcionaste ninguna clave.");
-                    break; 
+                    
                 } else {
                     alert ("contraseña incorrecta, intenta nuevamente")
                 }
@@ -95,10 +100,11 @@ while (true) {
             alert("No proporcionaste tu nombre.");
     
         }
-
+    
 }
+
 /*
-  
+  "mi-parrafo"
     var rol;
 var clave;
 
