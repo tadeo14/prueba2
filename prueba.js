@@ -61,7 +61,7 @@ En resumen, la primera línea se utiliza para obtener la fecha y la hora actuale
 en una variable llamada `fecha`. Esto es útil en el contexto de tu ejemplo para luego utilizar 
 `fecha.getDay()` y obtener el día de la semana correspondiente a esa fecha actual.
 
-*/
+
 var arrays = [5, 14, 19, 21];
 var agregar = prompt ("agrega un numero: ")
 arrays.push(agregar);
@@ -69,3 +69,4 @@ arrays.push(agregar);
 
 document.write (arrays);
 
+*/
