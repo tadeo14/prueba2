@@ -129,7 +129,7 @@ while (true) {
         alert("No proporcionaste un rol válido. Por favor, inténtalo de nuevo.");
     }
 }
-*/
+
 var FlujoDeCaja = [
     {
         periodo: "Enero",
@@ -206,3 +206,4 @@ if(ingresos < egresos) {
 } else {
     alert("El flujo de caja no genera pérdidas");
 }
+*/
