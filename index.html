@@ -1,15 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Explicación de Código</title>
 </head>
 <body>
+    <!-- Un párrafo donde se mostrará el mensaje del color seleccionado -->
     <p id="mi-parrafo"></p>
+    
+    <!-- Botones para seleccionar colores -->
+    <button id="blueButton">Blue</button>
+    <button id="redButton">Red</button>
+    <button id="pinkButton">Pink</button>
+    <button id="blackButton">Black</button>
 
-    <script src="prueba.js">
-        
+    <script>
+        // Función que se ejecuta cuando se hace clic en un botón 
+        function color(color) {
+            // Actualiza el contenido del párrafo con el mensaje del color seleccionado
+            document.getElementById("mi-parrafo").innerHTML = 'El color es ' + color;
+            // Cambia el color de fondo del cuerpo de la página al color seleccionado
+            document.body.style.backgroundColor = color;
+        }
+
+        // Agrega un evento a cada botón para llamar a la función color con el color correspondiente
+        document.getElementById("blueButton").addEventListener("click", function () {
+            color("blue"); // Llama a la función color con el argumento "blue"
+        });
+        document.getElementById("redButton").addEventListener("click", function () {
+            color("red"); // Llama a la función color con el argumento "red"
+        });
+        document.getElementById("pinkButton").addEventListener("click", function () {
+            color("pink"); // Llama a la función color con el argumento "pink"
+        });
+        document.getElementById("blackButton").addEventListener("click", function () {
+            color("black"); // Llama a la función color con el argumento "black"
+        });
     </script>
 </body>
 </html>
+
+    
